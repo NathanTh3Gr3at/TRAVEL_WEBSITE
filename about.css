@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+  color: rgb(68, 68, 68);
+}
+header {
+  position: static;
+}
+
+#about h2 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+}
+#about p {
+  color: white;
+  
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgb(100, 100, 100);
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
